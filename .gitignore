@@ -1,0 +1,14 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore checkpoint files
+.ipynb_checkpoints/
+
+# Ignore Python files
+*.py
+
+# Ignore compiled Python files
+*.pyc
