@@ -1,14 +1,15 @@
-# Ignore virtual environment
+# Python
 .venv/
-
-# Ignore Python cache
 __pycache__/
+*.pyc
 
-# Ignore checkpoint files
+# Jupyter
 .ipynb_checkpoints/
 
-# Ignore Python files
-*.py
+# Node
+node_modules/
+package-lock.json
+package.json
 
-# Ignore compiled Python files
-*.pyc
+# Ignore Python scripts
+*.py
